@@ -1,7 +1,7 @@
 [
   {
     "name": "TV直播",
-    "url": "https://gh-proxy.org/https://gh.kejilion.pro/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1"
+    "url": "https://cffast.panell.top/https://raw.githubusercontent.com/xymn2023/mv/refs/heads/main/live.txt"
   },
   {
     "name": "冰茶TV直播",
