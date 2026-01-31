@@ -1,7 +1,7 @@
 [
   {
     "name": "TV直播",
-    "url": "https://cffast.panell.top/https://raw.githubusercontent.com/xymn2023/mv/refs/heads/main/live.txt"
+    "url": "https://raw.githubusercontent.com/xymn2023/mv/refs/heads/main/iptv.m3u"
   },
   {
     "name": "冰茶TV直播",
