@@ -1,4 +1,4 @@
-🔥全网通央卫视,#genre#
+全网通央卫视,#genre#
 CCTV1,http://111.170.157.210:1081/?id=608807420&auth=95d4c11f9a4bc430bf05d5da4ace7ccb7b891049106baf6eb75d2b839bd66740540a16966d07620b019220384a4f0be5
 CCTV2,http://111.170.157.210:1081/?id=631780532&auth=95d4c11f9a4bc430bf05d5da4ace7ccb3086a0825492913bdcdccf25b70489aaa369f66c974eae25bdf70cc73f4775f2
 CCTV3,http://111.170.157.210:1081/?id=624878271&auth=95d4c11f9a4bc430bf05d5da4ace7ccb4098ce857ddb4c5fbba6f931fc6b5c65b17b404ff58d76eee7f546598fb7a911
@@ -106,7 +106,7 @@ CCTV13,http://38.75.136.137:98/gslb/dsdqpub/cctv13hd.m3u8?auth=testpub
 
 
 
-🔥全网通港澳台,#genre#
+全网通港澳台,#genre#
 博斯运动1,http://iptv.4666888.xyz/iptv2A.php?id=6
 美亚电影台,http://iptv.4666888.xyz/iptv2A.php?id=30
 东森电影,http://iptv.4666888.xyz/iptv2A.php?id=48
@@ -300,7 +300,7 @@ CCTV4K超高清,http://home.amucn.net:8800/udp/239.49.0.82:8000
 
 
 
-📡卫视直播,#genre#
+卫视直播,#genre#
 湖南卫视4K,http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
 东方卫视4K,http://bp-resource-dfl.bestv.cn/148/3/video.m3u8
 浙江卫视4K,https://play-qukan.cztv.com/live/1758879019692345.m3u8
@@ -472,7 +472,7 @@ CCTV4K超高清,http://home.amucn.net:8800/udp/239.49.0.82:8000
 
 
 
-🧭地方台直播,#genre#
+地方台直播,#genre#
 河北4K,https://event.pull.hebtv.com:443/live/live101.m3u8
 苏州4K,https://tylive.kan0512.com/norecord/csztv4k_4k.m3u8
 南国都市4K超高清,http://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=140110ae3d6c936a77f94c4f4d85b0d3&txTime=18d57929bd4
@@ -511,7 +511,7 @@ SYTV,http://l.cztvcloud.com/channels/lantian/SXsongyang1/720p.m3u8
 
 
 
-🔮港澳台直播,#genre#
+港澳台直播,#genre#
 NOW直播台,http://rihou.cc:555/tv/[Mt]Now直播
 NOW体育台,http://rihou.cc:555/tv/[Mt]Now体育
 NOW新闻台,http://cdn.163189.xyz/163189/now
@@ -587,7 +587,7 @@ DAZN2,rtmp://f13h.mine.nu/sat/tv741
 
 
 
-🌏全球台直播,#genre#
+全球台直播,#genre#
 🇦🇹奥地利Moviesphere,https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8
 🇬🇧英国Sky Sports Premier League,https://starshare.cx/live/P4B9TB9xR8/humongous2tonight/186604.ts
 🇳🇬尼日利亚Pulse,https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-pulse-samsungau/playlist.m3u8
@@ -647,7 +647,7 @@ DAZN2,rtmp://f13h.mine.nu/sat/tv741
 
 
 
-👶🏻少儿直播,#genre#
+少儿直播,#genre#
 BesTV宝宝动画,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000011000288002&livemode=1&stbId=yu&mode=1&$8M
 BesTV青春动漫,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000011000288008&livemode=1&stbId=yu&mode=1&$8M
 卡酷少儿,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=7851974109718180595&livemode=1&stbId=yu&mode=1&$8M
@@ -677,7 +677,7 @@ BesTV青春动漫,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLiv
 
 
 
-🏀体育直播,#genre#
+体育直播,#genre#
 NewTV精品体育,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=6460382139625130259&livemode=1&stbId=yu&mode=1&$4M
 NewTV精品体育,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000004000014634&livemode=1&stbId=yu&mode=1&$4M
 NewTV超级体育,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000001000009204&livemode=1&stbId=yu&mode=1&$4M
@@ -729,7 +729,7 @@ Big3专场,http://81.70.10.196:35455/huya/30847442
 
 
 
-🎞️电影直播,#genre#
+电影直播,#genre#
 NewTV超级电影,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000003000012426&livemode=1&stbId=yu&mode=1&$8M
 NewTV超级电影,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000004000002120&livemode=1&stbId=yu&mode=1&$4M
 NewTV超级电影,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000001000012884&livemode=1&stbId=yu&mode=1&$4M
@@ -831,7 +831,7 @@ CHC影迷电影,http://148.135.93.213:81/live.php?id=CHC影迷电影
 
 
 
-📽️综艺直播,#genre#
+综艺直播,#genre#
 NewTV金牌综艺,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000004000026167&livemode=1&stbId=yu&mode=1&$4M
 NewTV金牌综艺,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=6399725674632152632&livemode=1&stbId=yu&mode=1&$4M
 NewTV金牌综艺,http://111.29.9.42:6610/000000001000/1000000004000026167/index.m3u8?channel-id=ystenlive&Contentid=1000000004000026167&livemode=1&stbId=3
@@ -869,7 +869,7 @@ NewTV超级综艺,http://111.29.9.35:6610/000000001000/1000000004000023658/index
 
 
 
-📺电视剧直播,#genre#
+电视剧直播,#genre#
 NewTV超级电视剧,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000001000008139&livemode=1&stbId=yu&mode=1&$4M
 NewTV超级电视剧,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000004000024993&livemode=1&stbId=yu&mode=1&$4M
 NewTV超级电视剧,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000006000268003&livemode=1&stbId=yu&mode=1&$8M
@@ -917,7 +917,7 @@ NewTV潮妈辣婆,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLiv
 
 
 
-💽纪录片直播,#genre#
+纪录片直播,#genre#
 NewTV精品记录,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=6298506997017621594&livemode=1&stbId=yu&mode=1&$4M
 BesTV纯享4K,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=1000000004000011651&livemode=1&stbId=yu&mode=1&$16M
 BesTV看天下,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000011000288007&livemode=1&stbId=yu&mode=1&$8M
@@ -935,7 +935,7 @@ BesTV看天下,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&C
 
 
 
-🎮游戏直播,#genre#
+游戏直播,#genre#
 NewTV哒啵赛事,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5320946857686967621&livemode=1&stbId=yu&mode=1&$4M
 BesTV电竞天堂,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5000000011000288003&livemode=1&stbId=yu&mode=1&$8M
 端游/无畏契约专场,http://81.70.10.196:35455/huya/660679
@@ -965,7 +965,7 @@ BesTV电竞天堂,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLiv
 
 
 
-🎧音乐直播,#genre#
+音乐直播,#genre#
 周杰伦专场,http://free.frp.vip:10147/douyu/7537296
 24×7音乐,http://81.70.10.196:35455/huya/30483433
 轻音乐专场,http://81.70.10.196:35455/huya/26947138
@@ -998,7 +998,7 @@ DJ专场,http://81.70.10.196:35455/huya/20432228
 
 
 
-🎎动漫直播,#genre#
+动漫直播,#genre#
 名侦探柯南,http://81.70.10.196:35455/huya/30080236
 火影忍者,http://81.70.10.196:35455/huya/29465866
 海贼王,http://81.70.10.196:35455/huya/29982634
@@ -1052,7 +1052,7 @@ DJ专场,http://81.70.10.196:35455/huya/20432228
 国产动漫系列,http://81.70.10.196:35455/huya/11352869
 
 
-🧨小品直播,#genre#
+小品直播,#genre#
 赵本山专场,http://free.frp.vip:10147/douyu/9817716
 宋小宝专场,http://free.frp.vip:10147/douyu/9817729
 贾玲专场,http://free.frp.vip:10147/douyu/10419541
@@ -1065,7 +1065,7 @@ DJ专场,http://81.70.10.196:35455/huya/20432228
 
 
 
-🍿短剧直播,#genre#
+短剧直播,#genre#
 陈翔六点半,http://81.70.10.196:35455/huya/11274154
 人生回答机本机,http://free.frp.vip:10147/douyu/9409722
 郑云工作室,http://free.frp.vip:10147/douyu/2995636
@@ -1076,7 +1076,7 @@ DJ专场,http://81.70.10.196:35455/huya/20432228
 
 
 
-👴🏻老年直播,#genre#
+老年直播,#genre#
 NewTV军事评论,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=5822616274253344775&livemode=1&stbId=yu&mode=1&$4M
 NewTV农业致富,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=6193684637634073625&livemode=1&stbId=yu&mode=1&$4M
 BesTV睛彩广场舞,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Contentid=3000000020000011523&livemode=1&stbId=yu&mode=1&$8M
@@ -1104,7 +1104,7 @@ BesTV戏曲,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Cont
 
 
 
-🎨埋堆堆直播,#genre#
+埋堆堆直播,#genre#
 楚汉骄雄,http://81.70.10.196:35455/huya/29465854
 封神榜,http://81.70.10.196:35455/huya/29465849
 天地争霸美猴王,http://81.70.10.196:35455/huya/29465859
@@ -1122,7 +1122,7 @@ BesTV戏曲,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=FifastbLive&Cont
 
 
 
-🔊解说直播,#genre#
+解说直播,#genre#
 牛叔说电影,http://free.frp.vip:10147/douyu/2758565
 火龙果说电影,http://free.frp.vip:10147/douyu/9559158
 小片片说大片,http://free.frp.vip:10147/douyu/4258555
@@ -1161,7 +1161,7 @@ S哥影视,http://81.70.10.196:35455/huya/24720260
 
 
 
-👁️‍🗨️监控直播,#genre#
+监控直播,#genre#
 汕头金平区小公园亭,https://media9.vgmcc.com:5161/HLS/live/MT_20241202094012286lr7GJHYcdI4p/index.m3u8?encrypt=tPNUT0JhkzI7vlNBYoVtcA&expires=1739424841
 ipanda-青青,http://gcalic.v.myalicdn.com/gc/xiongmao20_1/index.m3u8
 ipanda-妃妃,http://gcalic.v.myalicdn.com/gc/xiongmao13_1/index.m3u8
@@ -1184,7 +1184,7 @@ ipanda都江堰园区,http://gcalic.v.myalicdn.com/gc/ipanda1000_1td/index.m3u8
 
 
 
-🎙️抖音直播,#genre#
+抖音直播,#genre#
 水水家猪蹄,http://dxa.yiandrive.com:39319/douyin/ssjzt777
 胡霸天,http://dxa.yiandrive.com:39319/douyin/63531596332
 小糖,http://dxa.yiandrive.com:39319/douyin/205649Tyf
@@ -1230,7 +1230,7 @@ Wen,http://dxa.yiandrive.com:39319/douyin/164347568
 
 
 
-🐯虎牙直播,#genre#
+虎牙直播,#genre#
 李子柒,http://81.70.10.196:35455/huya/21969336
 满创林欢,http://81.70.10.196:35455/huya/29441417
 兔丸崽崽,http://81.70.10.196:35455/huya/30831644
@@ -1246,7 +1246,7 @@ AH躺平儿,http://81.70.10.196:35455/huya/712932
 
 
 
-🐟斗鱼直播,#genre#
+斗鱼直播,#genre#
 小冉冉y,http://free.frp.vip:10147/douyu/10060909
 素柠i,http://free.frp.vip:10147/douyu/8386014
 v黎一,http://free.frp.vip:10147/douyu/6295904
@@ -1259,7 +1259,7 @@ v黎一,http://free.frp.vip:10147/douyu/6295904
 
 
 
-🅱️哔哩直播,#genre#
+哔哩直播,#genre#
 佳佳想被保护,http://dxa.yiandrive.com:39319/bilibili/1990576438
 沈幼楚圣体,http://dxa.yiandrive.com:39319/bilibili/1940988156
 扭轱辘小羊,http://dxa.yiandrive.com:39319/bilibili/1786569378
@@ -1272,7 +1272,7 @@ v黎一,http://free.frp.vip:10147/douyu/6295904
 
 
 
-🤟🏻YY直播,#genre#
+YY直播,#genre#
 娱乐抢先看,http://cfss.cc/cdn/yy/1509085223.m3u8
 火影剧场,http://cfss.cc/cdn/yy/1459675153.m3u8
 好声音剧场,http://cfss.cc/cdn/yy/991.m3u8
@@ -1286,7 +1286,7 @@ v黎一,http://free.frp.vip:10147/douyu/6295904
 
 
 
-💖爱奇艺直播,#genre#
+爱奇艺直播,#genre#
 武林外传,https://lvbdcdncmn.inter.71edge.com/tslive/l1/c52_lb_553_300_t10/I67sb6wvoWaxfjPEdSuB8xyBShFln4Poub7LGIzPt5oGLcKaLXD21aR_t20nEIxJFmaf_i6EYQ77gA-gLJ3xOTtq6K7hpgCREwLfbuNMXruJdFta9-ai9bYk4cTMbhQgRh9SCkE3yt46X4E0qOVADDdga3TMRSLnFscFYr-_s4Sd2sgykmnFa4-hdgX9599FiW_RX5VYGH9B1jyj748_CAu4VgqqTDwxUx8w556tCWY7mlb1r84RWuip72e4H8-HkUuBUoFeD4aw9m1HOUfgwx7ixDqJUFOmq9F-LeKLTZ2Ap6fobRuaUiaSqHsCWvuy9XWe5KWBiZv6bUJ8oAuqkA/1a6758d872929c8d41a7629db52a831f7/c52_lb_553_300_t10.m3u8?key=0baa5db205ac0d29618a2e8d7964b7e4e&dis_t=1752408084&uuid=6f1d53dc-6873a014-459&qdpv=3&qd_bid=1&qd_sft=0&pv=0.1&cpt=0
 2024年春节档,https://lvbdcdncmn.inter.71edge.com/tslive/l1/c51_lb_1018_300_t10/FVCO_jz_IvuxsWIbLCEvdstzbdQ5JLXxRlDL_J0vn0ZfgVYlA8ZxkNsXDoN4tEEtdVVarW6sgCF_YG8SB_oH0KY1zskp9-1iKJVEaWYyfIcsLVb4uKAdavgO_OSZkELLKJjUkk8t-S2ZKMnCiMEnykukS-GLvkY3RPIYLqhh_sgtY8UdWfdJc3EC9bm2mWz6FtFwc60bdNNWJi8gc-IP6buv-YaAeEN1nX9gHHHlH-fHifCyKKz5ppVfKts6RkTExgx82j5eLn6Mhz1s-bWGltEsWZfVmO_fakc0UlGwpKI9Sib9yjNKUMrfspPL8C80AuU4zeRqbSgkzjAcoovjnw/19eafbac982c8ac667d9bbc7c395db940/c51_lb_1018_300_t10.m3u8?key=0baa5db205ac0d296d2a304d3de433222&dis_t=1752408161&uuid=6f1d53dc-6873a061-45a&qdpv=3&qd_bid=1&qd_sft=0&pv=0.1&cpt=0
 四大名著,https://lvbdcdncmn.inter.71edge.com/tslive/l1/c52_lb_568_300_t10/JuZaYFfgAtgzeXENAS1zAE098-EGizvi9nPyECctaYL6rieOqt7Q1KcZ4FGU4o3UUwpf5CbV_nUsDbQg6NsUgbaKgmctqIUwA_QC1rbrgBQxdxXRLPaFs_72-dTZ9RfNKlNk-q4ijiT_NDcjcHKt9xDb1Eqjc_SZlsuONXiTyrN7Pf0NpHYoo8TtkhTnxhUA1rZTDlGr_OhabLQs7kUhuQmWsru0TSRbLz5HGJh_c3Dyx5K_G39iq69d-esVm-DuOSYw2HZW5BZdIPhr87zSBI2nAkwdKUaqY00Hzz-AXgJ6-Cx--ZL-3uMHEMgiE9SUmFSErHMOhGX8s8ogQkI3lg/11e4badc79479921d33b383ae671d68fc/c52_lb_568_300_t10.m3u8?key=0baa5db205ac0d296684015f97ee400bf&dis_t=1752408227&uuid=6f1d53dc-6873a0a3-45b&qdpv=3&qd_bid=1&qd_sft=0&pv=0.1&cpt=0
@@ -1295,7 +1295,7 @@ v黎一,http://free.frp.vip:10147/douyu/6295904
 又是一年中元节,https://lvbdcdncmn.inter.71edge.com/tslive/l1/c53_lb_625_300_t10/5C8qPLdmKh-TQ9swA5wH363wByeqda2GwP8HTDjFyEqeF2l2-SRwQm-_pT0s-TeRVJCmSZcYjvqxZOHBB9tLcTqTNY678AmtdI_H2w_hEbv2Ga2HeLMPHeCTucDAJNcmWJYV5GulSImAdRTgCWEde6HAybbnQCDKKd63DirUSUxx0JIAbVMPzfg-08HhzrKkfeVXDQU3Q4PUePaQKGksNlAv-XFGnsiEoEibq9MiheHeb9JOWjPveCd09CabtPU2ugbMjPSV2pFEmyIIPcupkuCO5r1tWVlonBVpzAj0fBh5JTNHAW-of5TIFHC6X71kmXtvOj6SkC0-doCQkiA1hg/1f5de6c7d9ff52fcbefa6d05855dbe2fd/c53_lb_625_300_t10.m3u8?key=0baa5db205ac0d296fbabe25229349aee&dis_t=1752408442&uuid=6f1d53dc-6873a17a-fd&qdpv=3&qd_bid=1&qd_sft=0&pv=0.1&cpt=0
 
 
-🏀咪咕体育直播,#genre#
+咪咕体育直播,#genre#
 咪视界4K,http://gslbserv.itv.cmvideo.cn:80/3000000010000005180/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000005180&livemode=1&stbId=3$
 咪视界1,http://gslbserv.itv.cmvideo.cn:80/3000000001000008176/index.m3u8?channel-id=FifastbLive&Contentid=3000000001000008176&livemode=1&stbId=3$
 咪视界2,http://gslbserv.itv.cmvideo.cn:80/3000000010000027691/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000027691&livemode=1&stbId=3$
@@ -1337,7 +1337,7 @@ v黎一,http://free.frp.vip:10147/douyu/6295904
 
 
 
-🏈百视通体育直播,#genre#
+百视通体育直播,#genre#
 百视通1,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000001000002898&livemode=1&stbId=yu&mode=1&$4M
 百视通2,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000001000004876&livemode=1&stbId=yu&mode=1&$4M
 百视通3,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000001000006777&livemode=1&stbId=yu&mode=1&$4M
@@ -1350,7 +1350,7 @@ v黎一,http://free.frp.vip:10147/douyu/6295904
 百视通10,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000001000017342&livemode=1&stbId=yu&mode=1&$4M
 
 
-⚽蜘蛛直播,#genre#
+蜘蛛直播,#genre#
 尤物,https://live01.hshpo.cn/live/95756650.m3u8
 小甜甜,https://live01.qevdjb.com/live/94120740.m3u8
 西瓜解说,https://live01.hshpo.cn/live/28524326.m3u8
@@ -1406,7 +1406,7 @@ UFC,https://live01.hshpo.cn/live/29858282.m3u8
 
 
 
-⚽球赛直播,#genre#
+球赛直播,#genre#
 波妞,https://new-live.jnyyoa.com/notlive/1744267.m3u8
 陆宝儿,https://new-live.jnyyoa.com/notlive/7468974.m3u8
 红漆工,https://new-live.jnyyoa.com/notlive/3669452.m3u8
@@ -1459,7 +1459,7 @@ UFC,https://live01.hshpo.cn/live/29858282.m3u8
 
 
 
-👠kk直播,#genre#
+kk直播,#genre#
 521k达人才艺频道,https://kbpull.kktv8.com/livekktv/156871698/playlist.m3u8
 夜天猫,https://kbpull.kktv8.com/livekktv/39630332/playlist.m3u8
 喜堂,https://kbpull.kktv8.com/livekktv/155823266/playlist.m3u8
@@ -1474,7 +1474,7 @@ UFC,https://live01.hshpo.cn/live/29858282.m3u8
 
 
 
-👠九秀直播,#genre#
+九秀直播,#genre#
 OK甜甜,https://videodowntx.9xiuzb.com/9xiu/124209737.m3u8
 诗诗,https://videodowntx.9xiuzb.com/9xiu/124214346.m3u8
 姜姜,https://videodowntx.9xiuzb.com/9xiu/123422033.m3u8
@@ -1489,7 +1489,7 @@ A6少女团,https://videodowntx.9xiuzb.com/9xiu/123371127.m3u8
 
 
 
-👠齐齐直播,#genre#
+齐齐直播,#genre#
 雨田,https://down-hls.qxiu.com/live/460815/index.m3u8
 达琳,https://down-hls.qxiu.com/live/443004/index.m3u8
 莹,https://down-hls.qxiu.com/live/455858/index.m3u8
@@ -1504,7 +1504,7 @@ A6少女团,https://videodowntx.9xiuzb.com/9xiu/123371127.m3u8
 
 
 
-🤣沙雕动画直播,#genre#
+沙雕动画直播,#genre#
 小小天才搞笑视频,http://free.frp.vip:10147/douyu/9419678
 冰糖葫芦没放盐V,http://free.frp.vip:10147/douyu/3505453
 动画大师姐,http://free.frp.vip:10147/douyu/9742136
@@ -1526,7 +1526,7 @@ A6少女团,https://videodowntx.9xiuzb.com/9xiu/123371127.m3u8
 
 
 
-🧘🏻‍♀️瑜伽裤直播,#genre#
+瑜伽裤直播,#genre#
 财帛何人在,http://81.70.10.196:35455/huya/30901478
 我最最最好看,http://81.70.10.196:35455/huya/30806102
 冬天萌萌,http://81.70.10.196:35455/huya/30805945
@@ -1536,18 +1536,18 @@ A6少女团,https://videodowntx.9xiuzb.com/9xiu/123371127.m3u8
 你的瑜伽女孩,http://free.frp.vip:10147/douyu/10205199
 
 
-👙模特直播,#genre#
+模特直播,#genre#
 爱吃桃子的喵,http://81.70.10.196:35455/huya/18501378
 
 
-💋车模直播,#genre#
+车模直播,#genre#
 赵本删不删,http://free.frp.vip:10147/douyu/9837104
 车模颜值大赏,http://free.frp.vip:10147/douyu/10118209
 北京影帝的分身,http://free.frp.vip:10147/douyu/9805480
 
 
 
-💄女团直播,#genre#
+女团直播,#genre#
 女团社颜老师,http://free.frp.vip:10147/douyu/11327316
 7师傅,http://free.frp.vip:10147/douyu/17732
 彼岸零可星球,http://free.frp.vip:10147/douyu/40471
@@ -1556,25 +1556,25 @@ A6少女团,https://videodowntx.9xiuzb.com/9xiu/123371127.m3u8
 崔杋圭五颜一,http://free.frp.vip:10147/douyu/8189873
 
 
-💃🏻热舞直播,#genre#
+热舞直播,#genre#
 顾止最爱的小胖宝贝,http://free.frp.vip:10147/douyu/238643
 少打白骨精,http://free.frp.vip:10147/douyu/11531165
 爱爱小s,http://free.frp.vip:10147/douyu/10308312
 
 
 
-🎣钓鱼直播,#genre#
+钓鱼直播,#genre#
 钓鱼欧尼,http://free.frp.vip:10147/douyu/10616765
 
 
-🗣️脱口秀直播,#genre#
+脱口秀直播,#genre#
 老高与小茉,http://free.frp.vip:10147/douyu/236461
 自说自话的总裁,http://free.frp.vip:10147/douyu/9317739
 悉奇,http://free.frp.vip:10147/douyu/9401473
 
 
 
-📚听书直播,#genre#
+听书直播,#genre#
 荒野有声书,http://free.frp.vip:10147/douyu/10650322
 龙楼宝殿,http://free.frp.vip:10147/douyu/7422897
 
@@ -1582,7 +1582,7 @@ A6少女团,https://videodowntx.9xiuzb.com/9xiu/123371127.m3u8
 
 
 
-🥥海南移动直播,#genre#
+海南移动直播,#genre#
 CCTV1,http://111.29.9.33:6610/000000001000/1000000001000021973/index.m3u8?channel-id=bestzb&Contentid=1000000001000021973&livemode=1&stbId=3
 CCTV2,http://111.29.9.33:6610/000000001000/1000000001000012442/index.m3u8?channel-id=bestzb&Contentid=1000000001000012442&livemode=1&stbId=3
 CCTV3,http://111.29.9.33:6610/000000001000/1000000001000011218/index.m3u8?channel-id=bestzb&Contentid=1000000001000011218&livemode=1&stbId=3
@@ -1651,7 +1651,7 @@ CCTV17,http://111.29.9.33:6610/000000001000/1000000005000056836/index.m3u8?chann
 
 
 
-🎰API随机点播,#genre#
+API随机点播,#genre#
 🔄韩国歌曲[刷新就是新内容],https://xn--vusr00g.v.nxog.top/m/tv/xjj.php?id=0
 🔄DJ舞曲[刷新就是新内容],http://xjj1.716888.xyz/fenlei/djxjj/dj1.php
 🔄网络热曲[刷新就是新内容],https://188sp.711888.xyz/188/video.php
@@ -1686,7 +1686,7 @@ CCTV17,http://111.29.9.33:6610/000000001000/1000000005000056836/index.m3u8?chann
 
 
 
-🎤周杰伦歌曲点播,#genre#
+周杰伦歌曲点播,#genre#
 即兴曲,https://cfss.cc/api/kg/13559898.mp4
 夜曲,https://cfss.cc/api/kg/596344.mp4
 傻笑,https://cfss.cc/api/kg/596984.mp4
@@ -1787,7 +1787,7 @@ CCTV17,http://111.29.9.33:6610/000000001000/1000000005000056836/index.m3u8?chann
 
 
 
-🎹歌手合集点播,#genre#
+歌手合集点播,#genre#
 周杰伦精选120首(8小时),https://txmov2.a.kwimgs.com/upic/2023/06/18/23/BMjAyMzA2MTgyMzE1MjBfMzQ4MzI0MjA1OF8xMDU4Nzc4MzAzNjZfMF8z_b_B386baa1bb2c0c48626a830ff69393771.mp4
 林俊杰精选81首(5小时),https://txmov2.a.kwimgs.com/upic/2024/01/09/12/BMjAyNDAxMDkxMjA2MDdfMzQ4MzI0MjA1OF8xMjE2Nzg4Mjk4NTZfMF8z_b_Bc9f7d3b0c4b69136e61d8328a8538bd2.mp4?clientCacheKey=3xajh8b4u5j6uva_b.mp4
 潘玮柏精选28首(1小时),https://txmov2.a.kwimgs.com/upic/2021/02/18/21/BMjAyMTAyMTgyMTI0MzNfODI4NTk1NTQ0XzQ0NTk2NzM2MDU3XzJfMw==_b_B92f3c6849966ee988590af29cfd9237b.mp4?tag=1-1750435163-std-1-6qxcke5wod-82a7afd374de76aa&clientCacheKey=3xabaxhvbd3me8s_b.mp4
@@ -1861,7 +1861,7 @@ DJ舞曲串烧点播,https://txmov2.a.kwimgs.com/bs3/video-hls/52599230165249789
 
 
 
-🤪沙雕动画点播,#genre#
+沙雕动画点播,#genre#
 凡小陈重生记(7小时),https://txmov2.a.kwimgs.com/upic/2023/10/02/08/BMjAyMzEwMDIwODQ0MjNfMTc3ODc1NjEyMl8xMTQwODQ0NDM2NzdfMF8z_b_B979853f23985acb8927c9cee71c709a6.mp4
 生肖造神日记(17小时),https://www.iesdouyin.com/aweme/v1/playwm/?line=0&logo_name=aweme_diversion_search&ratio=720p&video_id=v0200fg10000cqm6oufog65r70g4jj3g
 为弥补遗憾带老婆孩子逆袭人生(2小时),https://txmov2.a.kwimgs.com/upic/2023/11/16/14/BMjAyMzExMTYxNDU2NTJfMzc4OTA3MTE5MV8xMTcyODExNTkyMTlfMF8z_b_B0040256f5fb7b10163c712772d34544c.mp4
