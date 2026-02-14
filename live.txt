@@ -1,4 +1,4 @@
-🔥[电信]央视卫视直播,#genre#
+央视卫视直播,#genre#
 CCTV1综合,http://101.200.122.188:1234/608807420
 CCTV2财经,http://101.200.122.188:1234/631780532
 CCTV3综艺,http://101.200.122.188:1234/624878271
@@ -79,7 +79,7 @@ CHC家庭影院,http://101.200.122.188:1234/644368373
 
 
 
-🔥[移动]央视卫视直播,#genre#
+央视卫视直播,#genre#
 CCTV1,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000004000002226&livemode=1&stbId=yu&mode=1&$8M
 CCTV1,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=bestzb&Contentid=5000000010000030810&livemode=1&stbId=yu&mode=1&$4M
 CCTV1,http://gslbserv.itv.cmvideo.cn:80/1.m3u8?channel-id=ystenlive&Contentid=1000000001000018602&livemode=1&stbId=yu&mode=1&$8M
@@ -365,7 +365,7 @@ CCTV4K超高清,http://home.amucn.net:8800/udp/239.49.0.82:8000
 
 
 
-🔥[联通]央视卫视直播,#genre#
+央视卫视直播,#genre#
 CCTV1,http://23.237.228.134/live5/CCTV1.m3u8
 CCTV2,http://23.237.228.134/live5/CCTV2.m3u8
 CCTV3,http://23.237.228.134/live5/CCTV3.m3u8
@@ -495,7 +495,7 @@ CGTN阿语,https://0472.org/hls/cgtna.m3u8
 浙江卫视HD,http://38.75.136.137:98/gslb/dsdqpub/zjwshd.m3u8?auth=testpub
 
 
-🔥[三网]地方台直播,#genre#
+地方台直播,#genre#
 河北4K,https://event.pull.hebtv.com:443/live/live101.m3u8
 苏州4K,https://tylive.kan0512.com/norecord/csztv4k_4k.m3u8
 南国都市4K超高清,http://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=140110ae3d6c936a77f94c4f4d85b0d3&txTime=18d57929bd4
@@ -534,7 +534,7 @@ SYTV,http://l.cztvcloud.com/channels/lantian/SXsongyang1/720p.m3u8
 
 
 
-🔮[主用]港澳台直播,#genre#
+港澳台直播,#genre#
 TNTSports3,http://iptv.4666888.xyz/iptv2A.php?id=3
 鳳凰中文,http://iptv.4666888.xyz/iptv2A.php?id=27
 TVB翡翠,http://iptv.4666888.xyz/iptv2A.php?id=34
@@ -657,7 +657,7 @@ MUTV,http://208.87.242.79/livehttpplay?channel_id=13025
 
 
 
-🔮[备用]港澳台直播,#genre#
+港澳台直播,#genre#
 NOW新闻台,http://cdn.163189.xyz/163189/now
 VIUTV,https://cdn.163189.xyz/163189/viu
 ELEVEN体育1,rtmp://f13h.mine.nu/sat/tv731
