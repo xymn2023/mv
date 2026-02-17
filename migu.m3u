@@ -1,5 +1,4 @@
-#EXTM3U,咪咕1
-#EXTM3U x-tvg-url="http://221.12.123.211:1234/playback.xml" catchup="append" catchup-source="?playbackbegin=${(b)yyyyMMddHHmmss}&playbackend=${(e)yyyyMMddHHmmss}"
+#EXTM3U
 #EXTINF:-1 tvg-id="CCTV1综合" tvg-name="CCTV1综合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2201/057/821/202204010054_1626677671392_H32_1080.webp" group-title="央视",CCTV1综合
 http://221.12.123.211:1234/608807420
 #EXTINF:-1 tvg-id="CCTV2财经" tvg-name="CCTV2财经" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/346/945/202205311432_1626678578843_H32_1080.webp" group-title="央视",CCTV2财经
@@ -436,9 +435,6 @@ http://221.12.123.211:1234/963070574
 http://221.12.123.211:1234/963129213
 #EXTINF:-1 tvg-id="小特PK周跃龙 墨菲对战张安达" tvg-name="斯诺克 小特PK周跃龙 墨菲对战张安达 朱峰立 21:00" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-明天",斯诺克 小特PK周跃龙 墨菲对战张安达 朱峰立 21:00
 http://221.12.123.211:1234/963129220
-
-#EXTM3U,咪咕2
-#EXTM3U x-tvg-url="http://111.230.72.38:1234/playback.xml" catchup="append" catchup-source="?playbackbegin=${(b)yyyyMMddHHmmss}&playbackend=${(e)yyyyMMddHHmmss}"
 #EXTINF:-1 tvg-id="CCTV1综合" tvg-name="CCTV1综合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2201/057/821/202204010054_1626677671392_H32_1080.webp" group-title="央视",CCTV1综合
 http://111.230.72.38:1234/608807420
 #EXTINF:-1 tvg-id="CCTV2财经" tvg-name="CCTV2财经" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/346/945/202205311432_1626678578843_H32_1080.webp" group-title="央视",CCTV2财经
@@ -873,9 +869,6 @@ http://111.230.72.38:1234/963070574
 http://111.230.72.38:1234/963129213
 #EXTINF:-1 tvg-id="小特PK周跃龙 墨菲对战张安达" tvg-name="斯诺克 小特PK周跃龙 墨菲对战张安达 朱峰立 21:00" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-明天",斯诺克 小特PK周跃龙 墨菲对战张安达 朱峰立 21:00
 http://111.230.72.38:1234/963129220
-
-#EXTM3U,咪咕3
-#EXTM3U x-tvg-url="http://49.82.214.87:1234/playback.xml" catchup="append" catchup-source="?playbackbegin=${(b)yyyyMMddHHmmss}&playbackend=${(e)yyyyMMddHHmmss}"
 #EXTINF:-1 tvg-id="CCTV1综合" tvg-name="CCTV1综合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2201/057/821/202204010054_1626677671392_H32_1080.webp" group-title="央视",CCTV1综合
 http://49.82.214.87:1234/608807420
 #EXTINF:-1 tvg-id="CCTV2财经" tvg-name="CCTV2财经" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/346/945/202205311432_1626678578843_H32_1080.webp" group-title="央视",CCTV2财经
@@ -1310,10 +1303,6 @@ http://49.82.214.87:1234/963070574
 http://49.82.214.87:1234/963129213
 #EXTINF:-1 tvg-id="小特PK周跃龙 墨菲对战张安达" tvg-name="小特PK周跃龙 墨菲对战张安达" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-明天",斯诺克 小特PK周跃龙 墨菲对战张安达 朱峰立 21:00
 http://49.82.214.87:1234/963129220
-
-#EXTM3U,咪咕4
-
-#EXTM3U x-tvg-url="http://110.42.60.39:1234/playback.xml" catchup="append" catchup-source="?playbackbegin=${(b)yyyyMMddHHmmss}&playbackend=${(e)yyyyMMddHHmmss}"
 #EXTINF:-1 tvg-id="CCTV1综合" tvg-name="CCTV1综合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2201/057/821/202204010054_1626677671392_H32_1080.webp" group-title="央视",CCTV1综合
 http://110.42.60.39:1234/608807420
 #EXTINF:-1 tvg-id="CCTV2财经" tvg-name="CCTV2财经" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/346/945/202205311432_1626678578843_H32_1080.webp" group-title="央视",CCTV2财经
@@ -1738,9 +1727,6 @@ http://110.42.60.39:1234/963070574
 http://110.42.60.39:1234/963129213
 #EXTINF:-1 tvg-id="小特PK周跃龙 墨菲对战张安达" tvg-name="斯诺克 小特PK周跃龙 墨菲对战张安达 朱峰立 21:00" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-明天",斯诺克 小特PK周跃龙 墨菲对战张安达 朱峰立 21:00
 http://110.42.60.39:1234/963129220
-
-#EXTM3U,咪咕5
-#EXTM3U x-tvg-url="http://111.229.21.58:1234/playback.xml" catchup="append" catchup-source="?playbackbegin=${(b)yyyyMMddHHmmss}&playbackend=${(e)yyyyMMddHHmmss}"
 #EXTINF:-1 tvg-id="CCTV1综合" tvg-name="CCTV1综合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2201/057/821/202204010054_1626677671392_H32_1080.webp" group-title="央视",CCTV1综合
 http://111.229.21.58:1234/608807420
 #EXTINF:-1 tvg-id="CCTV2财经" tvg-name="CCTV2财经" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/346/945/202205311432_1626678578843_H32_1080.webp" group-title="央视",CCTV2财经
