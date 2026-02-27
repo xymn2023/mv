@@ -1,0 +1,35 @@
+#EXTM3U
+#EXTINF:-1 group-title="[高清]央视",CCTV2财经[]
+http://hm.hellolle.eu.org:7088/udp/239.3.1.60:8084
+#EXTINF:-1 group-title="[高清]央视",CCTV3综艺[]
+http://hm.hellolle.eu.org:7088/udp/239.3.1.172:8001
+#EXTINF:-1 group-title="[高清]央视",CCTV4中文国际欧洲[]
+http://hm.hellolle.eu.org:7088/udp/239.3.1.213:4220
+#EXTINF:-1 group-title="[高清]央视",CCTV4中文国际美洲[]
+http://hm.hellolle.eu.org:7088/udp/239.3.1.214:4220
+#EXTINF:-1 group-title="[高清]央视",CCTV5
+http://hm.hellolle.eu.org:7088/udp/239.3.1.130:8004
+#EXTINF:-1 group-title="[高清]北京",BRTV影视[]
+http://hm.hellolle.eu.org:7088/udp/239.3.1.158:8000
+#EXTINF:-1 group-title="[高清]北京",中国教育1台[]
+http://hm.hellolle.eu.org:7088/udp/239.3.1.57:8152
+#EXTINF:-1 group-title="[高清]北京",朝阳电视台[]
+http://hm.hellolle.eu.org:7088/udp/239.3.1.163:8001
+#EXTINF:-1 group-title="[高清]北京;[高清]卫视",BRTV北京卫视[]
+http://hm.hellolle.eu.org:7088/udp/239.3.1.241:8000
+#EXTINF:-1 group-title="[高清]北京IPTV",优购物[]
+http://hm.hellolle.eu.org:7088/udp/239.3.1.180:8001
+#EXTINF:-1 group-title="[高清]卫视",江苏卫视[]
+http://hm.hellolle.eu.org:7088/udp/239.3.1.135:8028
+#EXTINF:-1 group-title="北京IPTV",中国教育4台
+http://hm.hellolle.eu.org:7088/udp/239.3.1.56:4120
+#EXTINF:-1 group-title="北京IPTV",军旅剧场
+http://hm.hellolle.eu.org:7088/udp/239.3.1.68:4120
+#EXTINF:-1 group-title="北京IPTV",动作影院
+http://hm.hellolle.eu.org:7088/udp/239.3.1.92:4120
+#EXTINF:-1 group-title="北京IPTV",爱生活
+http://hm.hellolle.eu.org:7088/udp/239.3.1.86:4120
+#EXTINF:-1 group-title="北京IPTV",鉴赏
+http://hm.hellolle.eu.org:7088/udp/239.3.1.82:4120
+#EXTINF:-1 group-title="北京IPTV;少儿",好学生
+http://hm.hellolle.eu.org:7088/udp/239.3.1.81:4120
