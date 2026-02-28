@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="订阅链接转换工具">
+    <title>订阅转换</title>
+    
+    <!-- 百度统计代码 -->
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?f463aebe70bb41d3370a497b28a6d7ac";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    
+    <style>
+        :root {
+            --glass-bg: rgba(255, 255, 255, 0.15);
+            --glass-border: rgba(255, 255, 255, 0.2);
+            --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            --text-primary: #333;
+            --text-secondary: #555;
+            --accent-color: #4a6cf7;
+            --accent-hover: #3a5ce5;
+            --music-icon-color: #FFFFF0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: var(--text-primary);
+            overflow-x: hidden;
+            position: relative;
+            padding: 15px;
+        }
+
+        /* 背景层 */
+        .background-layer {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -2;
+            overflow: hidden;
+        }
+
+        .background-video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .background-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.7);
+            z-index: -1;
+        }
+
+        /* 主页层 */
+        .main-layer {
+            width: 100%;
+            max-width: 450px;
+            margin-top: 50px;
+        }
+
+        /* 毛玻璃跑马灯 */
+        .marquee-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: var(--glass-bg);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            padding: 8px 0;
+            box-shadow: var(--glass-shadow);
+            overflow: hidden;
+            z-index: 100;
+        }
+
+        .marquee {
+            white-space: nowrap;
+            display: flex;
+            animation: marquee 15s linear infinite;
+        }
+
+        .marquee a {
+            color: var(--text-primary);
+            font-weight: bold;
+            text-decoration: none;
+            padding: 0 15px;
+        }
+
+        .marquee a:hover {
+            text-decoration: underline;
+        }
+
+        @keyframes marquee {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+
+        /* 炫彩标题 */
+        .page-title {
+            text-align: center;
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 25px;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3, #54a0ff);
+            background-size: 400% 400%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: gradient 8s ease infinite;
+        }
+
+        @keyframes gradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        /* 毛玻璃卡片 */
+        .glass-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-radius: 12px;
+            border: 1px solid var(--glass-border);
+            padding: 15px;
+            box-shadow: var(--glass-shadow);
+            transition: all 0.3s ease;
+        }
+
+        .glass-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .input-group {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 10px;
+        }
+
+        .input-group label {
+            margin-bottom: 4px;
+            font-weight: 500;
+            color: var(--text-primary);
+            font-size: 12px;
+        }
+
+        textarea, select, input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            border-radius: 6px;
+            border: 1px solid var(--glass-border);
+            background: transparent;
+            color: var(--text-primary);
+            font-size: 12px;
+            transition: all 0.3s ease;
+        }
+
+        textarea {
+            min-height: 60px;
+            resize: vertical;
+        }
+
+        textarea:focus, select:focus, input[type="text"]:focus {
+            outline: none;
+            border-color: var(--accent-color);
+            box-shadow: 0 0 0 2px rgba(74, 108, 247, 0.2);
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .btn {
+            background: var(--accent-color);
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 13px;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            transition: all 0.3s ease;
+            width: 100%;
+            margin: 8px 0;
+        }
+
+        .btn:hover {
+            background: var(--accent-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        .btn:active {
+            transform: translateY(0);
+        }
+
+        .result-container {
+            margin-top: 10px;
+            padding: 10px;
+            background: transparent;
+            border-radius: 6px;
+            border: 1px solid var(--glass-border);
+            word-break: break-all;
+            transition: all 0.3s ease;
+        }
+
+        .result-container:hover {
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .result-link {
+            color: var(--accent-color);
+            text-decoration: none;
+            font-size: 12px;
+            line-height: 1.4;
+        }
+
+        .result-link:hover {
+            text-decoration: underline;
+        }
+
+        .tag {
+            display: inline-block;
+            background: rgba(74, 108, 247, 0.15);
+            color: var(--accent-color);
+            padding: 1px 4px;
+            border-radius: 3px;
+            font-size: 10px;
+            margin-left: 4px;
+            vertical-align: middle;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .compact-row {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .compact-row .input-group {
+            flex: 1;
+            margin-bottom: 0;
+        }
+
+        /* 音乐播放器样式 */
+        .music-player {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .music-toggle {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: var(--glass-bg);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid var(--glass-border);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: var(--glass-shadow);
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .music-toggle:hover {
+            transform: scale(1.1);
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        /* 音乐图标 - 使用CSS绘制 */
+        .music-toggle::before {
+            content: "";
+            position: absolute;
+            width: 24px;
+            height: 18px;
+            background: var(--music-icon-color);
+            border-radius: 10px 10px 0 0;
+        }
+
+        .music-toggle::after {
+            content: "";
+            position: absolute;
+            width: 6px;
+            height: 12px;
+            background: var(--music-icon-color);
+            top: 18px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        /* 播放状态 - 显示为暂停图标 */
+        .music-toggle.playing::before {
+            width: 8px;
+            height: 20px;
+            border-radius: 2px;
+            left: 30%;
+            transform: translateX(-50%);
+        }
+
+        .music-toggle.playing::after {
+            width: 8px;
+            height: 20px;
+            border-radius: 2px;
+            left: 70%;
+            transform: translateX(-50%);
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            .glass-card {
+                padding: 12px;
+            }
+            
+            .compact-row {
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            .page-title {
+                font-size: 28px;
+                margin-bottom: 20px;
+            }
+            
+            .main-layer {
+                margin-top: 40px;
+            }
+            
+            .music-player {
+                bottom: 15px;
+                right: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 背景层 -->
+    <div class="background-layer">
+        <video class="background-video" autoplay muted loop playsinline>
+            <source src="https://txmov2.a.kwimgs.com/upic/2023/10/13/16/BMjAyMzEwMTMxNjU4MTJfMTcyNTc4NzU4N18xMTQ4OTQ2OTgxMzRfMl8z_b_B209e890a596d64fbd174507b758b0815.mp4" type="video/mp4">
+        </video>
+        <div class="background-overlay"></div>
+    </div>
+
+    <!-- 主页层 -->
+    <div class="main-layer">
+        <div class="page-title">订阅转换</div>
+        
+        <div class="glass-card">
+            <div class="input-group">
+                <label for="sub-filepath">订阅链接</label>
+                <textarea placeholder="请输入订阅链接，多个链接请用换行分隔..." id="sub-filepath" rows="2"></textarea>
+            </div>
+
+            <div class="compact-row">
+                <div class="input-group">
+                    <label for="sub-backend">后端选择</label>
+                    <select id="sub-backend">
+                        <option value="https://sub.xeton.dev/sub?target=">全能后端</option>
+                        <option value="custom">自定义</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label for="sub-options">类型选择</label>
+                    <select id="sub-options">
+                        <option value="clash">Clash</option>
+                        <option value="singbox">Singbox</option>
+                        <option value="quanx">QuanX</option>
+                        <option value="loon">Loon</option>
+                        <option value="surge&amp;ver=4">Surge</option>
+                        <option value="surfboard">Surfboard</option>
+                        <option value="v2ray">V2Ray</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="input-group hidden" id="custom-backend-group">
+                <label for="custom-backend">自定义后端</label>
+                <input type="text" placeholder="例如：https://api.example.com/sub?target=" id="custom-backend">
+            </div>
+
+            <div class="input-group">
+                <label for="sub-config">分流规则</label>
+                <select id="sub-config">
+                    <option value="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini">全能规则</option>
+                    <option value="custom">自定义</option>
+                </select>
+            </div>
+
+            <div class="input-group hidden" id="custom-config-group">
+                <label for="custom-config">自定义规则</label>
+                <input type="text" placeholder="例如：https://example.com/rule.ini" id="custom-config">
+            </div>
+
+            <button class="btn" id="sub-generate">
+                <span>生成链接</span>
+            </button>
+
+            <div class="result-container hidden" id="result-container">
+                <a id="sub-link" class="result-link" target="_blank"></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 简洁的音乐播放器 -->
+    <div class="music-player">
+        <div class="music-toggle" id="music-toggle"></div>
+    </div>
+
+    <!-- 背景音乐 -->
+    <audio id="bg-music" loop>
+        <source src="https://mpimg.cn/view.php/610b8bba280027b2dfb2e4989771f676.mp3" type="audio/mpeg">
+    </audio>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // 元素引用
+            const elements = {
+                subFilepath: document.getElementById("sub-filepath"),
+                subLink: document.getElementById("sub-link"),
+                subGenerate: document.getElementById("sub-generate"),
+                subOptions: document.getElementById("sub-options"),
+                subConfig: document.getElementById("sub-config"),
+                customConfig: document.getElementById("custom-config"),
+                subBackend: document.getElementById("sub-backend"),
+                customBackend: document.getElementById("custom-backend"),
+                customConfigGroup: document.getElementById("custom-config-group"),
+                customBackendGroup: document.getElementById("custom-backend-group"),
+                resultContainer: document.getElementById("result-container"),
+                bgMusic: document.getElementById("bg-music"),
+                musicToggle: document.getElementById("music-toggle")
+            };
+
+            // 初始化
+            function init() {
+                // 从localStorage加载保存的设置
+                elements.subFilepath.value = localStorage.getItem("sub-filepath") || "";
+                elements.subOptions.value = localStorage.getItem("sub-options") || "clash";
+                elements.subConfig.value = localStorage.getItem("sub-config") || "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini";
+                elements.customConfig.value = localStorage.getItem("custom-config") || "";
+                elements.subBackend.value = localStorage.getItem("sub-backend") || "https://sub.xeton.dev/sub?target=";
+                elements.customBackend.value = localStorage.getItem("custom-backend") || "";
+
+                // 初始化音乐设置 - 自动播放
+                const musicEnabled = localStorage.getItem("music-enabled") !== "false"; // 默认为true
+                
+                if (musicEnabled) {
+                    elements.musicToggle.classList.add("playing");
+                    // 延迟播放，确保页面加载完成
+                    setTimeout(() => {
+                        elements.bgMusic.play().catch(e => {
+                            console.log("自动播放被阻止，等待用户交互");
+                            // 如果自动播放失败，等待用户点击页面任意位置
+                            document.body.addEventListener('click', initAudio, { once: true });
+                        });
+                    }, 500);
+                }
+
+                updateCustomConfigVisibility();
+                updateCustomBackendVisibility();
+                
+                // 添加事件监听器
+                setupEventListeners();
+            }
+
+            // 设置事件监听器
+            function setupEventListeners() {
+                // 配置变化
+                elements.subConfig.addEventListener("change", function() {
+                    localStorage.setItem("sub-config", elements.subConfig.value);
+                    updateCustomConfigVisibility();
+                });
+                
+                elements.customConfig.addEventListener("input", debounce(function() {
+                    localStorage.setItem("custom-config", elements.customConfig.value);
+                }, 300));
+                
+                elements.subBackend.addEventListener("change", function() {
+                    localStorage.setItem("sub-backend", elements.subBackend.value);
+                    updateCustomBackendVisibility();
+                });
+                
+                elements.customBackend.addEventListener("input", debounce(function() {
+                    localStorage.setItem("custom-backend", elements.customBackend.value);
+                }, 300));
+                
+                elements.subOptions.addEventListener("change", function() {
+                    localStorage.setItem("sub-options", elements.subOptions.value);
+                });
+                
+                elements.subFilepath.addEventListener("input", debounce(function() {
+                    localStorage.setItem("sub-filepath", elements.subFilepath.value);
+                }, 300));
+                
+                // 生成订阅链接
+                elements.subGenerate.addEventListener("click", generateSubscription);
+                
+                // 音乐控制
+                elements.musicToggle.addEventListener("click", toggleMusic);
+            }
+
+            // 初始化音频（在用户交互后）
+            function initAudio() {
+                elements.bgMusic.play().then(() => {
+                    elements.musicToggle.classList.add("playing");
+                    localStorage.setItem("music-enabled", "true");
+                }).catch(e => {
+                    console.log("音频播放失败:", e);
+                });
+            }
+
+            // 切换音乐播放状态
+            function toggleMusic() {
+                if (elements.bgMusic.paused) {
+                    elements.bgMusic.play().then(() => {
+                        elements.musicToggle.classList.add("playing");
+                        localStorage.setItem("music-enabled", "true");
+                    }).catch(e => {
+                        console.log("播放失败:", e);
+                    });
+                } else {
+                    elements.bgMusic.pause();
+                    elements.musicToggle.classList.remove("playing");
+                    localStorage.setItem("music-enabled", "false");
+                }
+            }
+
+            // 更新自定义配置可见性
+            function updateCustomConfigVisibility() {
+                if (elements.subConfig.value === "custom") {
+                    elements.customConfigGroup.classList.remove("hidden");
+                } else {
+                    elements.customConfigGroup.classList.add("hidden");
+                }
+            }
+
+            // 更新自定义后端可见性
+            function updateCustomBackendVisibility() {
+                if (elements.subBackend.value === "custom") {
+                    elements.customBackendGroup.classList.remove("hidden");
+                } else {
+                    elements.customBackendGroup.classList.add("hidden");
+                }
+            }
+
+            // 防抖函数
+            function debounce(func, wait) {
+                let timeout;
+                return function (...args) {
+                    clearTimeout(timeout);
+                    timeout = setTimeout(() => func.apply(this, args), wait);
+                };
+            }
+
+            // 生成订阅链接
+            function generateSubscription() {
+                let backendUrl = elements.subBackend.value;
+                if (backendUrl === "custom") {
+                    backendUrl = elements.customBackend.value;
+                    if (!backendUrl) {
+                        alert("请输入自定义后端地址");
+                        return;
+                    }
+                }
+
+                const subLinks = elements.subFilepath.value.split('\n')
+                    .filter(link => link.trim() !== '')
+                    .map(link => link.trim());
+                
+                if (subLinks.length === 0) {
+                    alert("请输入订阅链接");
+                    return;
+                }
+
+                const target = elements.subOptions.value;
+                let configUrl = elements.subConfig.value;
+                if (configUrl === "custom") {
+                    configUrl = elements.customConfig.value;
+                }
+
+                // 生成所有转换后的链接
+                const convertedLinks = subLinks.map(link => {
+                    let finalUrl = backendUrl + target + '&url=' + encodeURIComponent(link);
+                    if (configUrl && configUrl !== "custom") {
+                        finalUrl += `&config=${encodeURIComponent(configUrl)}`;
+                    }
+                    return finalUrl;
+                });
+
+                // 显示第一个链接，但提供所有链接的文本
+                elements.subLink.href = convertedLinks[0];
+                elements.subLink.textContent = convertedLinks.length > 1 ? 
+                    `已生成 ${convertedLinks.length} 个链接（点击查看第一个）` : convertedLinks[0];
+                elements.resultContainer.classList.remove("hidden");
+                
+                // 复制所有链接到剪贴板
+                const linksText = convertedLinks.join('\n');
+                navigator.clipboard.writeText(linksText).then(() => {
+                    alert(`已生成 ${convertedLinks.length} 个订阅链接并复制到剪贴板！`);
+                }).catch(() => {
+                    // 如果复制失败，手动显示链接让用户复制
+                    elements.subLink.textContent = linksText;
+                    alert(`已生成 ${convertedLinks.length} 个订阅链接，请手动复制！`);
+                });
+            }
+
+            // 初始化应用
+            init();
+        });
+    </script>
+</body>
+</html>
