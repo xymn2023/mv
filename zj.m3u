@@ -7,8 +7,6 @@ http://183.191.51.232:9003/hls/1/index.m3u8
 http://171.120.94.112:9003/hls/1/index.m3u8
 #EXTINF:-1 group-title="未分类",CCTV1
 http://118.122.144.115:8888/newlive/live/hls/1/live.m3u8
-#EXTINF:-1 group-title="未分类",CCTV01
-http://182.122.231.197:8888/hls/1/index.m3u8
 #EXTINF:-1 group-title="未分类",CCTV2
 http://153.3.141.134:9003/hls/2/index.m3u8
 #EXTINF:-1 group-title="未分类",CCTV2
@@ -17,8 +15,6 @@ http://183.191.51.232:9003/hls/2/index.m3u8
 http://171.120.94.112:9003/hls/2/index.m3u8
 #EXTINF:-1 group-title="未分类",CCTV2
 http://118.122.144.115:8888/newlive/live/hls/2/live.m3u8
-#EXTINF:-1 group-title="未分类",CCTV02
-http://182.122.231.197:8888/hls/2/index.m3u8
 #EXTINF:-1 group-title="未分类",CCTV3
 http://153.3.141.134:9003/hls/3/index.m3u8
 #EXTINF:-1 group-title="未分类",CCTV3
@@ -27,8 +23,6 @@ http://183.191.51.232:9003/hls/3/index.m3u8
 http://171.120.94.112:9003/hls/3/index.m3u8
 #EXTINF:-1 group-title="未分类",CCTV3
 http://118.122.144.115:8888/newlive/live/hls/3/live.m3u8
-#EXTINF:-1 group-title="未分类",CCTV03
-http://182.122.231.197:8888/hls/3/index.m3u8
 #EXTINF:-1 group-title="未分类",CCTV4
 http://153.3.141.134:9003/hls/4/index.m3u8
 #EXTINF:-1 group-title="未分类",CCTV4
@@ -37,8 +31,6 @@ http://183.191.51.232:9003/hls/4/index.m3u8
 http://171.120.94.112:9003/hls/4/index.m3u8
 #EXTINF:-1 group-title="未分类",CCTV4
 http://118.122.144.115:8888/newlive/live/hls/4/live.m3u8
-#EXTINF:-1 group-title="未分类",CCTV04
-http://182.122.231.197:8888/hls/4/index.m3u8
 #EXTINF:-1 group-title="未分类",CCTV5
 http://153.3.141.134:9003/hls/5/index.m3u8
 #EXTINF:-1 group-title="未分类",CCTV5
@@ -53,8 +45,6 @@ http://183.191.51.232:9003/hls/6/index.m3u8
 http://171.120.94.112:9003/hls/6/index.m3u8
 #EXTINF:-1 group-title="未分类",CCTV5+
 http://118.122.144.115:8888/newlive/live/hls/6/live.m3u8
-#EXTINF:-1 group-title="未分类",CCTV05
-http://182.122.231.197:8888/hls/5/index.m3u8
 #EXTINF:-1 group-title="未分类",CCTV6
 http://153.3.141.134:9003/hls/6/index.m3u8
 #EXTINF:-1 group-title="未分类",CCTV6
@@ -63,8 +53,6 @@ http://183.191.51.232:9003/hls/7/index.m3u8
 http://171.120.94.112:9003/hls/7/index.m3u8
 #EXTINF:-1 group-title="未分类",CCTV6
 http://118.122.144.115:8888/newlive/live/hls/7/live.m3u8
-#EXTINF:-1 group-title="未分类",CCTV06
-http://182.122.231.197:8888/hls/6/index.m3u8
 #EXTINF:-1 group-title="未分类",CCTV7
 http://153.3.141.134:9003/hls/7/index.m3u8
 #EXTINF:-1 group-title="未分类",CCTV7
@@ -73,8 +61,6 @@ http://183.191.51.232:9003/hls/8/index.m3u8
 http://171.120.94.112:9003/hls/8/index.m3u8
 #EXTINF:-1 group-title="未分类",CCTV7
 http://118.122.144.115:8888/newlive/live/hls/8/live.m3u8
-#EXTINF:-1 group-title="未分类",CCTV07
-http://182.122.231.197:8888/hls/7/index.m3u8
 #EXTINF:-1 group-title="未分类",CCTV8
 http://153.3.141.134:9003/hls/8/index.m3u8
 #EXTINF:-1 group-title="未分类",CCTV8
@@ -83,8 +69,6 @@ http://183.191.51.232:9003/hls/9/index.m3u8
 http://171.120.94.112:9003/hls/9/index.m3u8
 #EXTINF:-1 group-title="未分类",CCTV8
 http://118.122.144.115:8888/newlive/live/hls/9/live.m3u8
-#EXTINF:-1 group-title="未分类",CCTV08
-http://182.122.231.197:8888/hls/8/index.m3u8
 #EXTINF:-1 group-title="未分类",CCTV9
 http://153.3.141.134:9003/hls/9/index.m3u8
 #EXTINF:-1 group-title="未分类",CCTV9
@@ -93,8 +77,6 @@ http://183.191.51.232:9003/hls/10/index.m3u8
 http://171.120.94.112:9003/hls/10/index.m3u8
 #EXTINF:-1 group-title="未分类",CCTV9
 http://118.122.144.115:8888/newlive/live/hls/10/live.m3u8
-#EXTINF:-1 group-title="未分类",CCTV09
-http://182.122.231.197:8888/hls/9/index.m3u8
 #EXTINF:-1 group-title="未分类",CCTV10
 http://153.3.141.134:9003/hls/10/index.m3u8
 #EXTINF:-1 group-title="未分类",CCTV10
