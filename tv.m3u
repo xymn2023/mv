@@ -35,6 +35,7 @@ http://101.66.198.21:9901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=0&authid=0
 http://101.66.195.55:9901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=0&authid=0
 http://101.66.194.2:9901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 group-title="央视",CCTV6
+http://182.114.48.211:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0
 http://101.66.195.55:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=0&authid=0
 http://101.66.198.21:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=0&authid=0
 http://101.66.195.98:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=0&authid=0
