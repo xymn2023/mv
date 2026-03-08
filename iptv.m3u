@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://live.fanmingming.cn/e.xml"
+#EXTM3U x-tvg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz"
 #EXTINF:-1 tvg-name="CCTV1综合" tvg-logo="https://live.fanmingming.cn/tv/CCTV1综合.png" group-title="🔥[电信]央视卫视直播",CCTV1综合
 http://101.200.122.188:1234/608807420
 #EXTINF:-1 tvg-name="CCTV2财经" tvg-logo="https://live.fanmingming.cn/tv/CCTV2财经.png" group-title="🔥[电信]央视卫视直播",CCTV2财经
