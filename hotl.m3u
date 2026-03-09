@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U x-tvg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz"
 #EXTINF:-1 group-title="央视",CCTV1
 http://111.8.242.124:9999/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
 http://219.140.6.129:7777/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
