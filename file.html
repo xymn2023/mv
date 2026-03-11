@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>永久直链托管</title>
+    <link rel="icon" href="https://cloudflare.panell.top/file/1769138559457_photo_2024-04-05_13-54-41.jpg" type="image/png">
+    <style>
+        :root {
+            --glass-bg: rgba(255, 255, 255, 0.15);
+            --glass-border: rgba(255, 255, 255, 0.2);
+            --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            --text-primary: #333;
+            --accent-color: #4a6cf7;
+            --accent-hover: #3a5ce5;
+            --warning-color: #e67e22;
+            --success-color: #27ae60;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            color: var(--text-primary);
+            overflow-x: hidden;
+            position: relative;
+            padding: 15px;
+            padding-top: 10vh;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        .avatar-container {
+            text-align: center;
+            margin-bottom: 0;
+            line-height: 0;
+        }
+        .avatar-img {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: none;
+            background: transparent;
+            transition: transform 0.3s ease;
+            display: block;
+            margin: 0 auto;
+        }
+        .avatar-img:hover { transform: scale(1.05); }
+
+        .page-title {
+            text-align: center;
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff9ff3, #54a0ff);
+            background-size: 400% 400%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: gradient 8s ease infinite;
+        }
+        @keyframes gradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .main-layer { width: 100%; max-width: 450px; margin-top: 0; }
+        
+        .glass-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(12px);
+            border-radius: 12px;
+            border: 1px solid var(--glass-border);
+            padding: 25px;
+            box-shadow: var(--glass-shadow);
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .upload-zone {
+            border-radius: 12px;
+            padding: 40px 20px;
+            cursor: pointer;
+            background: rgba(255, 255, 255, 0.2);
+            margin-bottom: 15px;
+            transition: 0.3s;
+            border: 2px dashed rgba(255, 255, 255, 0.4);
+        }
+        .upload-zone:hover { background: rgba(255, 255, 255, 0.3); transform: scale(1.02); }
+        .upload-zone.dragover { background: rgba(255, 255, 255, 0.4); border-color: var(--accent-color); }
+
+        .btn {
+            background: var(--accent-color);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            width: 100%;
+            transition: 0.3s;
+        }
+        .btn:hover { background: var(--accent-hover); }
+        .btn:disabled { background: #ccc; cursor: not-allowed; }
+
+        #progressSection, #resultSection, #errorSection { display: none; margin-top: 20px; }
+        .progress-bar { background: rgba(0,0,0,0.1); height: 8px; border-radius: 4px; overflow: hidden; margin: 10px 0; }
+        .progress-fill { width: 0%; height: 100%; background: var(--accent-color); transition: 0.3s; }
+
+        .result-item { text-align: left; margin-bottom: 15px; }
+        .label { font-size: 11px; color: #555; font-weight: bold; margin-bottom: 4px; display: block; }
+        .input-group {
+            display: flex; background: rgba(255,255,255,0.5); border: 1px solid var(--glass-border); border-radius: 6px; padding: 4px;
+        }
+        .input-group input { flex: 1; background: transparent; border: none; padding: 8px; font-size: 12px; outline: none; min-width: 0; }
+        .btn-copy { background: var(--accent-color); color: white; border: none; padding: 0 15px; border-radius: 4px; font-size: 12px; cursor: pointer; transition: 0.3s; flex-shrink: 0; }
+        .btn-copy:hover { background: var(--accent-hover); }
+        
+        #statusNotice { 
+            font-size: 12px; 
+            color: var(--warning-color); 
+            background: rgba(255, 255, 255, 0.9); 
+            padding: 10px 12px; 
+            border-radius: 6px; 
+            margin-top: 10px;
+            font-weight: 500;
+            text-align: center;
+        }
+        #statusNotice.success { color: var(--success-color); }
+
+        .error-box {
+            background: rgba(231, 76, 60, 0.1);
+            border: 1px solid rgba(231, 76, 60, 0.3);
+            border-radius: 8px;
+            padding: 15px;
+            margin-top: 15px;
+        }
+        .error-box p {
+            color: #c0392b;
+            font-size: 13px;
+            margin-bottom: 10px;
+        }
+
+        .expiry-info {
+            font-size: 11px;
+            color: #666;
+            margin-top: 5px;
+            text-align: left;
+        }
+    </style>
+    <!-- 百度统计代码 -->
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?f463aebe70bb41d3370a497b28a6d7ac";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</head>
+<body>
+    <div class="main-layer">
+        <div class="page-title">永久直链托管</div>
+        
+        <div class="avatar-container">
+            <img class="avatar-img" src="https://cloudflare.panell.top/file/1769138559457_photo_2024-04-05_13-54-41.jpg" alt="头像" title="托管">
+        </div>
+
+        <div class="glass-card">
+            <div id="uploadForm">
+                <div class="upload-zone" id="dropZone">
+                    <div style="font-size: 40px;">📁</div>
+                    <p style="font-size: 14px; color: #555; margin-top: 10px;">点击或将文件拖拽至此处</p>
+                    <p style="font-size: 12px; color: #888; margin-top: 5px;">最大支持 512MB，保留 30天-1年</p>
+                    <input type="file" id="fileInput" hidden>
+                </div>
+                <button class="btn" id="uploadBtn" onclick="document.getElementById('fileInput').click()">选择文件并上传</button>
+            </div>
+
+            <div id="progressSection">
+                <p style="font-size: 13px; font-weight: 500;">正在上传中...</p>
+                <div class="progress-bar"><div class="progress-fill" id="progressBar"></div></div>
+                <p id="percentText" style="font-size: 12px; color: var(--accent-color); font-weight: 600;">0%</p>
+                <div id="statusNotice" style="display: none;"></div>
+            </div>
+
+            <div id="errorSection">
+                <div class="error-box">
+                    <p id="errorMsg">❌ 上传失败，请稍后重试</p>
+                    <button class="btn" onclick="location.reload()">重新上传</button>
+                </div>
+            </div>
+
+            <div id="resultSection">
+                <div class="result-item">
+                    <span class="label">🔗 文件下载链接</span>
+                    <div class="input-group">
+                        <input type="text" id="fileLink" readonly>
+                        <button class="btn-copy" onclick="copyValue('fileLink', this)">复制</button>
+                    </div>
+                    <p class="expiry-info">⏰ 文件将保留 30天-1年（根据文件大小自动计算）</p>
+                </div>
+                <button class="btn" style="background:transparent; border:1px solid var(--accent-color); color:var(--accent-color); margin-top: 10px;" onclick="location.reload()">重新上传</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const fileInput = document.getElementById('fileInput');
+        const dropZone = document.getElementById('dropZone');
+        const uploadBtn = document.getElementById('uploadBtn');
+
+        // 拖拽上传支持
+        dropZone.ondragover = (e) => {
+            e.preventDefault();
+            dropZone.classList.add('dragover');
+        };
+        dropZone.ondragleave = (e) => {
+            e.preventDefault();
+            dropZone.classList.remove('dragover');
+        };
+        dropZone.ondrop = (e) => {
+            e.preventDefault();
+            dropZone.classList.remove('dragover');
+            if (e.dataTransfer.files[0]) handleUpload(e.dataTransfer.files[0]);
+        };
+
+        dropZone.onclick = () => fileInput.click();
+        fileInput.onchange = (e) => { if(e.target.files[0]) handleUpload(e.target.files[0]); };
+        
+        function handleUpload(file) {
+            // 检查文件大小 (512MB)
+            if (file.size > 512 * 1024 * 1024) {
+                alert('文件大小超过限制（最大512MB）');
+                return;
+            }
+
+            document.getElementById('uploadForm').style.display = 'none';
+            document.getElementById('progressSection').style.display = 'block';
+
+            const fd = new FormData();
+            fd.append('file', file);
+
+            // 使用 0x0.st API - 免费文件托管服务
+            const API = 'https://0x0.st';
+            
+            let retryCount = 0;
+            const maxRetries = 3;
+
+            function doUpload() {
+                const xhr = new XMLHttpRequest();
+                xhr.open('POST', API);
+
+                xhr.upload.onprogress = (e) => {
+                    if (e.lengthComputable) {
+                        const percent = Math.round((e.loaded / e.total) * 100);
+                        document.getElementById('progressBar').style.width = percent + '%';
+                        document.getElementById('percentText').innerText = percent + '%';
+                    }
+                };
+
+                xhr.onload = () => {
+                    const response = xhr.responseText.trim();
+                    // 0x0.st 成功返回文件 URL
+                    if (xhr.status === 200 && response.includes('http')) {
+                        // 提取 URL（响应可能是纯文本 URL）
+                        const urlMatch = response.match(/https?:\/\/[^\s]+/);
+                        if (urlMatch) {
+                            document.getElementById('fileLink').value = urlMatch[0];
+                            document.getElementById('progressSection').style.display = 'none';
+                            document.getElementById('resultSection').style.display = 'block';
+                            return;
+                        }
+                    }
+                    // 处理错误
+                    if (xhr.status === 413) {
+                        showError('文件太大，超过服务器限制');
+                    } else if (response.includes('error') || response.includes('Error')) {
+                        showError(response);
+                    } else {
+                        retryUpload('服务器返回异常');
+                    }
+                };
+
+                xhr.onerror = () => retryUpload('网络连接失败');
+                xhr.ontimeout = () => retryUpload('请求超时');
+                
+                xhr.timeout = 180000; // 3分钟超时（适应大文件）
+                xhr.send(fd);
+            }
+
+            function retryUpload(reason) {
+                retryCount++;
+                if (retryCount < maxRetries) {
+                    const notice = document.getElementById('statusNotice');
+                    notice.style.display = 'block';
+                    notice.innerText = '⚠️ ' + reason + '，正在重试 (' + retryCount + '/' + maxRetries + ')...';
+                    document.getElementById('progressBar').style.width = '0%';
+                    document.getElementById('percentText').innerText = '重试中...';
+                    console.log(reason + '，第 ' + (retryCount + 1) + ' 次重试...');
+                    setTimeout(doUpload, 2000);
+                } else {
+                    showError('上传失败：' + reason + '，请检查网络后重试');
+                }
+            }
+
+            function showError(msg) {
+                document.getElementById('progressSection').style.display = 'none';
+                document.getElementById('errorMsg').innerText = '❌ ' + msg;
+                document.getElementById('errorSection').style.display = 'block';
+            }
+
+            doUpload();
+        }
+
+        function copyValue(id, btn) {
+            const input = document.getElementById(id);
+            input.select();
+            input.setSelectionRange(0, 99999);
+            try {
+                document.execCommand('copy');
+                const originalText = btn.innerText;
+                btn.innerText = '已复制';
+                setTimeout(() => btn.innerText = originalText, 2000);
+            } catch (e) {
+                navigator.clipboard.writeText(input.value).then(() => {
+                    const originalText = btn.innerText;
+                    btn.innerText = '已复制';
+                    setTimeout(() => btn.innerText = originalText, 2000);
+                }).catch(() => {
+                    alert('复制失败，请手动复制');
+                });
+            }
+        }
+    </script>
+</body>
+</html>
