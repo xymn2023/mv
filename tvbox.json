@@ -102,66 +102,6 @@
   ],
   "sites": [
     {
-      "key": "快手直播",
-      "name": "丨快手丨直播",
-      "type": 3,
-      "api": "csp_AweSomeGuard",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.433
-      },
-      "ext": {
-        "sp": "KsLive"
-      },
-      "timeout": 10
-    },
-    {
-      "key": "斗鱼直播",
-      "name": "丨斗鱼丨直播",
-      "type": 3,
-      "api": "https://7337.kstore.vip/js/drpy2.min.js",
-      "ext": "https://7337.kstore.vip/js/斗鱼直播.js",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      }
-    },
-    {
-      "key": "虎牙直播",
-      "name": "丨虎牙丨直播",
-      "type": 3,
-      "api": "csp_AweSomeGuard",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.433
-      },
-      "ext": {
-        "sp": "Huya"
-      },
-      "timeout": 10
-    },
-    {
-      "key": "哔哩直播",
-      "name": "丨哔哩丨直播",
-      "type": 3,
-      "api": "https://mpimg.cn/down.php/d18d26a80c0d820e716be81e51568488.py"
-    },
-    {
-      "key": "电台直播",
-      "name": "丨电台丨直播",
-      "type": 3,
-      "api": "http://rihou.cc:88/js/drpy2.min.js",
-      "ext": "http://rihou.cc:88/js/蜻蜓FM.js"
-    },
-    {
       "key": "免扫网盘",
       "name": "移动丨免扫丨网盘",
       "type": 3,
@@ -887,6 +827,66 @@
       "changeable": 0,
       "api": "https://down.nigx.cn/upld.zone.id/uploads/q9iq9e5iq/zbzdb.js",
       "ext": "https://down.nigx.cn/upld.zone.id/uploads/q9iq9e5iq/zbzdb.json"
+    },
+    {
+      "key": "快手直播",
+      "name": "丨快手丨直播",
+      "type": 3,
+      "api": "csp_AweSomeGuard",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "sp": "KsLive"
+      },
+      "timeout": 10
+    },
+    {
+      "key": "斗鱼直播",
+      "name": "丨斗鱼丨直播",
+      "type": 3,
+      "api": "https://7337.kstore.vip/js/drpy2.min.js",
+      "ext": "https://7337.kstore.vip/js/斗鱼直播.js",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      }
+    },
+    {
+      "key": "虎牙直播",
+      "name": "丨虎牙丨直播",
+      "type": 3,
+      "api": "csp_AweSomeGuard",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "sp": "Huya"
+      },
+      "timeout": 10
+    },
+    {
+      "key": "哔哩直播",
+      "name": "丨哔哩丨直播",
+      "type": 3,
+      "api": "https://mpimg.cn/down.php/d18d26a80c0d820e716be81e51568488.py"
+    },
+    {
+      "key": "电台直播",
+      "name": "丨电台丨直播",
+      "type": 3,
+      "api": "http://rihou.cc:88/js/drpy2.min.js",
+      "ext": "http://rihou.cc:88/js/蜻蜓FM.js"
     }
   ]
 }
