@@ -80,25 +80,6 @@
       "type": 1,
       "url": "https://gh-proxy.org/https://raw.githubusercontent.com/fafa002/yf2025/refs/heads/main/yiyifafa.txt"
     },
-    {
-      "name": "JackTV直播{翻}",
-      "type": 1,
-      "url": "https://php.946985.filegear-sg.me/jackTV.m3u",
-      "header": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-      }
-    },
-    {
-      "name": "日本TV直播{翻}",
-      "type": 0,
-      "ua": "okhttp/5.3.2",
-      "url": "https://web.utako.moe/jp.m3u"
-    },
-    {
-      "name": "海外TV直播{翻}",
-      "type": 0,
-      "url": "https://down.nigx.cn/iptv-org.github.io/iptv/index.m3u"
-    }
   ],
   "sites": [
     {
