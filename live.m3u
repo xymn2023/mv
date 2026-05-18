@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz"
+#EXTM3U x-tvg-url="https://epg.zsdc.eu.org/t.xml.gz"
 #EXTINF:-1 group-title="🔥[三网1]央卫视直播" tvg-name="CCTV1综合" tvg-logo="https://epg.112114.xyz/logo/CCTV1综合.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",CCTV1综合
 http://78962588856486165751857.iepose.cn/608807420
 #EXTINF:-1 group-title="🔥[三网1]央卫视直播" tvg-name="CCTV2财经" tvg-logo="https://epg.112114.xyz/logo/CCTV2财经.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",CCTV2财经
